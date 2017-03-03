@@ -80,6 +80,41 @@ aside h2{
     font-size:16px;
 
 }
+/*表单*/
+aside h2{
+    padding:10px 10px;
+    font-size:16px;
+    border-left:3px solid #888888;
+}
+aside form div{
+    margin:15px 0;
+}
+aside form div .tips{
+    float:left;           /*添加后个人描述四个字才和文本域上对齐*/
+    text-align:right;
+    width:40%;
+}
+aside form div p{
+    color:#aaaaaa;
+    font-size:12px;
+    padding-left:40%;
+}
+aside form div textarea{
+    width:59%;
+    height:100px;
+}
+aside .submitbutton{
+    width:100%;
+    height:30px;
+    color:white;
+    background:cornflowerblue;
+    border-radius:10px;
+    border:none;
+    font-size:16px;
+}
+aside .submitbutton:hover{
+    background: #0063dc;}
+
 /*底部*/
 footer{background:black;height:60px;}
 footer p{color:white;text-align:center;padding:20px;}
